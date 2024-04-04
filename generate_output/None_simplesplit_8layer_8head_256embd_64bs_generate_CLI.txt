@@ -1,0 +1,738 @@
+Accuracy: 0.9826:  96%|█████████████████████████████████████████████████████████████████████████████████████████████▌   | 4032/4182 [15:25<00:42,  3.52it/s]Conditions: turn around right twice and look right thrice
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK
+Correct!###############################################################################################
+Accuracy: 0.9826:  96%|█████████████████████████████████████████████████████████████████████████████████████████████▌   | 4033/4182 [15:25<00:39,  3.81it/s]Conditions: run around right thrice after run left thrice
+break
+Generated actions: I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN
+Actual actions: I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9826:  96%|█████████████████████████████████████████████████████████████████████████████████████████████▌   | 4034/4182 [15:25<00:45,  3.28it/s]Conditions: jump twice and turn around left
+break
+Generated actions: I_JUMP I_JUMP I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT
+Actual actions: I_JUMP I_JUMP I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT
+Correct!###############################################################################################
+Accuracy: 0.9827:  96%|█████████████████████████████████████████████████████████████████████████████████████████████▌   | 4034/4182 [15:26<00:45,  3.28it/s]Conditions: look right after walk thrice
+break
+Generated actions: I_WALK I_WALK I_WALK I_TURN_RIGHT I_LOOK
+Actual actions: I_WALK I_WALK I_WALK I_TURN_RIGHT I_LOOK
+Correct!###############################################################################################
+Accuracy: 0.9827:  97%|█████████████████████████████████████████████████████████████████████████████████████████████▌   | 4036/4182 [15:26<00:30,  4.84it/s]Conditions: run left twice after turn left thrice
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9827:  97%|█████████████████████████████████████████████████████████████████████████████████████████████▌   | 4036/4182 [15:26<00:30,  4.84it/s]Conditions: run around right thrice after run thrice
+break
+Generated actions: I_RUN I_RUN I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN
+Actual actions: I_RUN I_RUN I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9827:  97%|█████████████████████████████████████████████████████████████████████████████████████████████▋   | 4038/4182 [15:26<00:30,  4.66it/s]Conditions: turn opposite right thrice after turn opposite left twice
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT
+Correct!###############################################################################################
+Accuracy: 0.9827:  97%|█████████████████████████████████████████████████████████████████████████████████████████████▋   | 4039/4182 [15:26<00:28,  5.00it/s]Conditions: run thrice and turn around left twice
+break
+Generated actions: I_RUN I_RUN I_RUN I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT
+Actual actions: I_RUN I_RUN I_RUN I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT
+Correct!###############################################################################################
+Accuracy: 0.9827:  97%|█████████████████████████████████████████████████████████████████████████████████████████████▋   | 4040/4182 [15:26<00:27,  5.13it/s]Conditions: turn around left and turn opposite left
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT
+Correct!###############################################################################################
+Accuracy: 0.9827:  97%|█████████████████████████████████████████████████████████████████████████████████████████████▋   | 4041/4182 [15:26<00:24,  5.81it/s]Conditions: walk opposite right twice and turn opposite left
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_LEFT I_TURN_LEFT
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_LEFT I_TURN_LEFT
+Correct!###############################################################################################
+Accuracy: 0.9827:  97%|█████████████████████████████████████████████████████████████████████████████████████████████▊   | 4042/4182 [15:27<00:21,  6.36it/s]Conditions: run around left thrice after run left twice
+break
+Generated actions: I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN
+Actual actions: I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9827:  97%|█████████████████████████████████████████████████████████████████████████████████████████████▊   | 4043/4182 [15:27<00:28,  4.92it/s]Conditions: walk opposite right twice after turn around left
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_TURN_RIGHT I_WALK
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_TURN_RIGHT I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9827:  97%|█████████████████████████████████████████████████████████████████████████████████████████████▊   | 4043/4182 [15:27<00:28,  4.92it/s]Conditions: walk right thrice and walk around left thrice
+break
+Generated actions: I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK        
+Actual actions: I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9827:  97%|█████████████████████████████████████████████████████████████████████████████████████████████▊   | 4045/4182 [15:27<00:26,  5.15it/s]Conditions: walk opposite right after turn around left
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_RIGHT I_TURN_RIGHT I_WALK
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_RIGHT I_TURN_RIGHT I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9827:  97%|█████████████████████████████████████████████████████████████████████████████████████████████▊   | 4045/4182 [15:27<00:26,  5.15it/s]Conditions: jump opposite right twice and walk right
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_WALK
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9827:  97%|█████████████████████████████████████████████████████████████████████████████████████████████▊   | 4047/4182 [15:27<00:19,  6.78it/s]Conditions: turn right thrice and look opposite left thrice
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_LEFT I_TURN_LEFT I_LOOK I_TURN_LEFT I_TURN_LEFT I_LOOK I_TURN_LEFT I_TURN_LEFT I_LOOK       
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_LEFT I_TURN_LEFT I_LOOK I_TURN_LEFT I_TURN_LEFT I_LOOK I_TURN_LEFT I_TURN_LEFT I_LOOK
+Correct!###############################################################################################
+Accuracy: 0.9827:  97%|█████████████████████████████████████████████████████████████████████████████████████████████▉   | 4048/4182 [15:28<00:18,  7.12it/s]Conditions: run around right after turn opposite left twice
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9827:  97%|█████████████████████████████████████████████████████████████████████████████████████████████▉   | 4049/4182 [15:28<00:18,  7.36it/s]Conditions: walk around right and jump around left twice
+break
+Generated actions: I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP
+Actual actions: I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP
+Correct!###############################################################################################
+Accuracy: 0.9827:  97%|█████████████████████████████████████████████████████████████████████████████████████████████▉   | 4050/4182 [15:28<00:20,  6.54it/s]Conditions: turn right after jump opposite left
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_JUMP I_TURN_RIGHT
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_JUMP I_TURN_RIGHT
+Correct!###############################################################################################
+Accuracy: 0.9827:  97%|█████████████████████████████████████████████████████████████████████████████████████████████▉   | 4050/4182 [15:28<00:20,  6.54it/s]Conditions: run right after run twice
+break
+Generated actions: I_RUN I_RUN I_TURN_RIGHT I_RUN
+Actual actions: I_RUN I_RUN I_TURN_RIGHT I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9827:  97%|█████████████████████████████████████████████████████████████████████████████████████████████▉   | 4050/4182 [15:28<00:20,  6.54it/s]Conditions: run around left thrice after walk around left twice
+Generated actions: I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN
+Actual actions: I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN
+Accuracy: 0.9825:  97%|██████████████████████████████████████████████████████████████████████████████████████████████   | 4053/4182 [15:28<00:18,  6.84it/s]Conditions: walk right and jump left thrice
+break
+Generated actions: I_TURN_RIGHT I_WALK I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP
+Actual actions: I_TURN_RIGHT I_WALK I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP
+Correct!###############################################################################################
+Accuracy: 0.9825:  97%|██████████████████████████████████████████████████████████████████████████████████████████████   | 4053/4182 [15:28<00:18,  6.84it/s]Conditions: look twice after walk opposite right twice
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_TURN_RIGHT I_WALK I_LOOK I_LOOK
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_TURN_RIGHT I_WALK I_LOOK I_LOOK
+Correct!###############################################################################################
+Accuracy: 0.9825:  97%|██████████████████████████████████████████████████████████████████████████████████████████████   | 4055/4182 [15:28<00:15,  8.14it/s]Conditions: turn right thrice and run around right thrice
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9825:  97%|██████████████████████████████████████████████████████████████████████████████████████████████   | 4056/4182 [15:29<00:18,  6.77it/s]Conditions: look around left thrice and walk around left twice
+Generated actions: I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK
+Actual actions: I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK
+Accuracy: 0.9823:  97%|██████████████████████████████████████████████████████████████████████████████████████████████   | 4057/4182 [15:29<00:23,  5.42it/s]Conditions: turn right thrice after jump opposite right
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT
+Correct!###############################################################################################
+Accuracy: 0.9823:  97%|██████████████████████████████████████████████████████████████████████████████████████████████   | 4057/4182 [15:29<00:23,  5.42it/s]Conditions: jump right twice after walk opposite left
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_WALK I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_WALK I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP
+Correct!###############################################################################################
+Accuracy: 0.9823:  97%|██████████████████████████████████████████████████████████████████████████████████████████████▏  | 4059/4182 [15:29<00:17,  6.96it/s]Conditions: walk opposite left thrice after run opposite left thrice
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_LEFT I_TURN_LEFT I_WALK I_TURN_LEFT I_TURN_LEFT I_WALK I_TURN_LEFT I_TURN_LEFT I_WALK
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_LEFT I_TURN_LEFT I_WALK I_TURN_LEFT I_TURN_LEFT I_WALK I_TURN_LEFT I_TURN_LEFT I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9823:  97%|██████████████████████████████████████████████████████████████████████████████████████████████▏  | 4060/4182 [15:29<00:18,  6.73it/s]Conditions: walk left thrice after jump opposite right
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9823:  97%|██████████████████████████████████████████████████████████████████████████████████████████████▏  | 4060/4182 [15:29<00:18,  6.73it/s]Conditions: run left after jump twice
+break
+Generated actions: I_JUMP I_JUMP I_TURN_LEFT I_RUN
+Actual actions: I_JUMP I_JUMP I_TURN_LEFT I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9823:  97%|██████████████████████████████████████████████████████████████████████████████████████████████▏  | 4062/4182 [15:29<00:13,  8.65it/s]Conditions: look right thrice after run opposite left twice
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK
+Correct!###############################################################################################
+Accuracy: 0.9823:  97%|██████████████████████████████████████████████████████████████████████████████████████████████▏  | 4062/4182 [15:30<00:13,  8.65it/s]Conditions: look around right and jump opposite right
+break
+Generated actions: I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_TURN_RIGHT I_JUMP
+Actual actions: I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_TURN_RIGHT I_JUMP
+Correct!###############################################################################################
+Accuracy: 0.9823:  97%|██████████████████████████████████████████████████████████████████████████████████████████████▎  | 4064/4182 [15:30<00:13,  8.96it/s]Conditions: run right thrice after turn right
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9823:  97%|██████████████████████████████████████████████████████████████████████████████████████████████▎  | 4064/4182 [15:30<00:13,  8.96it/s]Conditions: look opposite right twice and run opposite left twice
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_TURN_RIGHT I_LOOK I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_LEFT I_TURN_LEFT I_RUN
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_TURN_RIGHT I_LOOK I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_LEFT I_TURN_LEFT I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9823:  97%|██████████████████████████████████████████████████████████████████████████████████████████████▎  | 4066/4182 [15:30<00:12,  9.41it/s]Conditions: jump around right after look right twice
+break
+Generated actions: I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP
+Actual actions: I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP
+Correct!###############################################################################################
+Accuracy: 0.9823:  97%|██████████████████████████████████████████████████████████████████████████████████████████████▎  | 4066/4182 [15:30<00:12,  9.41it/s]Conditions: turn left thrice after walk opposite right twice
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT
+Correct!###############################################################################################
+Accuracy: 0.9823:  97%|██████████████████████████████████████████████████████████████████████████████████████████████▎  | 4068/4182 [15:30<00:12,  8.97it/s]Conditions: walk and walk opposite left
+break
+Generated actions: I_WALK I_TURN_LEFT I_TURN_LEFT I_WALK
+Actual actions: I_WALK I_TURN_LEFT I_TURN_LEFT I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9823:  97%|██████████████████████████████████████████████████████████████████████████████████████████████▎  | 4068/4182 [15:30<00:12,  8.97it/s]Conditions: turn opposite right twice and walk right twice
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9823:  97%|██████████████████████████████████████████████████████████████████████████████████████████████▍  | 4070/4182 [15:30<00:11,  9.74it/s]Conditions: walk and turn left thrice
+break
+Generated actions: I_WALK I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT
+Actual actions: I_WALK I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT
+Correct!###############################################################################################
+Accuracy: 0.9823:  97%|██████████████████████████████████████████████████████████████████████████████████████████████▍  | 4070/4182 [15:30<00:11,  9.74it/s]Conditions: look left thrice after look left
+break
+Generated actions: I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK
+Actual actions: I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK
+Correct!###############################################################################################
+Accuracy: 0.9823:  97%|██████████████████████████████████████████████████████████████████████████████████████████████▍  | 4072/4182 [15:30<00:10, 10.97it/s]Conditions: jump left twice and run around right twice
+break
+Generated actions: I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN
+Actual actions: I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9823:  97%|██████████████████████████████████████████████████████████████████████████████████████████████▍  | 4072/4182 [15:31<00:10, 10.97it/s]Conditions: look opposite right thrice and jump left
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_TURN_RIGHT I_LOOK I_TURN_LEFT I_JUMP
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_TURN_RIGHT I_LOOK I_TURN_LEFT I_JUMP
+Correct!###############################################################################################
+Accuracy: 0.9823:  97%|██████████████████████████████████████████████████████████████████████████████████████████████▍  | 4074/4182 [15:31<00:11,  9.06it/s]Conditions: jump twice after run right thrice
+break
+Generated actions: I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_JUMP I_JUMP
+Actual actions: I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_JUMP I_JUMP
+Correct!###############################################################################################
+Accuracy: 0.9823:  97%|██████████████████████████████████████████████████████████████████████████████████████████████▍  | 4074/4182 [15:31<00:11,  9.06it/s]Conditions: look around right thrice and walk around right
+break
+Generated actions: I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK
+Actual actions: I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9823:  97%|██████████████████████████████████████████████████████████████████████████████████████████████▌  | 4076/4182 [15:31<00:15,  7.04it/s]Conditions: run and run around left thrice
+break
+Generated actions: I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN
+Actual actions: I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9823:  97%|██████████████████████████████████████████████████████████████████████████████████████████████▌  | 4077/4182 [15:31<00:16,  6.29it/s]Conditions: look around left thrice and jump twice
+break
+Generated actions: I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_JUMP I_JUMP
+Actual actions: I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_JUMP I_JUMP
+Correct!###############################################################################################
+Accuracy: 0.9823:  98%|██████████████████████████████████████████████████████████████████████████████████████████████▌  | 4078/4182 [15:32<00:18,  5.68it/s]Conditions: run opposite right thrice after run around left thrice
+break
+Generated actions: I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_RIGHT I_TURN_RIGHT I_RUN I_TURN_RIGHT I_TURN_RIGHT I_RUN I_TURN_RIGHT I_TURN_RIGHT I_RUN
+Actual actions: I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_RIGHT I_TURN_RIGHT I_RUN I_TURN_RIGHT I_TURN_RIGHT I_RUN I_TURN_RIGHT I_TURN_RIGHT I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9823:  98%|██████████████████████████████████████████████████████████████████████████████████████████████▌  | 4079/4182 [15:32<00:23,  4.39it/s]Conditions: run twice and jump left
+break
+Generated actions: I_RUN I_RUN I_TURN_LEFT I_JUMP
+Actual actions: I_RUN I_RUN I_TURN_LEFT I_JUMP
+Correct!###############################################################################################
+Accuracy: 0.9824:  98%|██████████████████████████████████████████████████████████████████████████████████████████████▌  | 4079/4182 [15:32<00:23,  4.39it/s]Conditions: walk opposite right twice and walk right twice
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9824:  98%|██████████████████████████████████████████████████████████████████████████████████████████████▋  | 4081/4182 [15:32<00:18,  5.59it/s]Conditions: walk left thrice and run
+break
+Generated actions: I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_RUN
+Actual actions: I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9824:  98%|██████████████████████████████████████████████████████████████████████████████████████████████▋  | 4081/4182 [15:32<00:18,  5.59it/s]Conditions: walk around right and look right thrice
+break
+Generated actions: I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK
+Actual actions: I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK  
+Correct!###############################################################################################
+Accuracy: 0.9824:  98%|██████████████████████████████████████████████████████████████████████████████████████████████▋  | 4083/4182 [15:33<00:16,  6.02it/s]Conditions: jump opposite right twice and look opposite right thrice
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_TURN_RIGHT I_LOOK
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_TURN_RIGHT I_LOOK
+Correct!###############################################################################################
+Accuracy: 0.9824:  98%|██████████████████████████████████████████████████████████████████████████████████████████████▋  | 4084/4182 [15:33<00:17,  5.73it/s]Conditions: turn opposite left thrice and jump opposite left twice
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_JUMP I_TURN_LEFT I_TURN_LEFT I_JUMP     
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_JUMP I_TURN_LEFT I_TURN_LEFT I_JUMP        
+Correct!###############################################################################################
+Accuracy: 0.9824:  98%|██████████████████████████████████████████████████████████████████████████████████████████████▊  | 4085/4182 [15:33<00:16,  5.89it/s]Conditions: turn left and look
+break
+Generated actions: I_TURN_LEFT I_LOOK
+Actual actions: I_TURN_LEFT I_LOOK
+Correct!###############################################################################################
+Accuracy: 0.9824:  98%|██████████████████████████████████████████████████████████████████████████████████████████████▊  | 4085/4182 [15:33<00:16,  5.89it/s]Conditions: walk right twice after look left thrice
+break
+Generated actions: I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK
+Actual actions: I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9824:  98%|██████████████████████████████████████████████████████████████████████████████████████████████▊  | 4087/4182 [15:33<00:11,  7.92it/s]Conditions: run opposite left twice and turn opposite right twice
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT
+Correct!###############################################################################################
+Accuracy: 0.9824:  98%|██████████████████████████████████████████████████████████████████████████████████████████████▊  | 4088/4182 [15:33<00:12,  7.76it/s]Conditions: look around left thrice after jump right twice
+break
+Generated actions: I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK
+Actual actions: I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK
+Correct!###############################################################################################
+Accuracy: 0.9824:  98%|██████████████████████████████████████████████████████████████████████████████████████████████▊  | 4089/4182 [15:33<00:14,  6.22it/s]Conditions: look around right thrice after jump around left twice
+Generated actions: I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK
+Actual actions: I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK
+Accuracy: 0.9822:  98%|██████████████████████████████████████████████████████████████████████████████████████████████▊  | 4090/4182 [15:34<00:21,  4.32it/s]Conditions: walk left after run left twice
+break
+Generated actions: I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_WALK
+Actual actions: I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9822:  98%|██████████████████████████████████████████████████████████████████████████████████████████████▊  | 4090/4182 [15:34<00:21,  4.32it/s]Conditions: turn opposite left and look opposite right
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_TURN_RIGHT I_TURN_RIGHT I_LOOK
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_TURN_RIGHT I_TURN_RIGHT I_LOOK
+Correct!###############################################################################################
+Accuracy: 0.9822:  98%|██████████████████████████████████████████████████████████████████████████████████████████████▉  | 4092/4182 [15:34<00:14,  6.27it/s]Conditions: jump around left thrice and turn around right
+break
+Generated actions: I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT
+Actual actions: I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT
+Correct!###############################################################################################
+Accuracy: 0.9822:  98%|██████████████████████████████████████████████████████████████████████████████████████████████▉  | 4093/4182 [15:34<00:16,  5.27it/s]Conditions: run around left thrice and turn opposite right
+break
+Generated actions: I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_RIGHT I_TURN_RIGHT
+Actual actions: I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_RIGHT I_TURN_RIGHT
+Correct!###############################################################################################
+Accuracy: 0.9822:  98%|██████████████████████████████████████████████████████████████████████████████████████████████▉  | 4094/4182 [15:34<00:18,  4.87it/s]Conditions: look left thrice and run left thrice
+break
+Generated actions: I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN
+Actual actions: I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9822:  98%|██████████████████████████████████████████████████████████████████████████████████████████████▉  | 4095/4182 [15:35<00:16,  5.25it/s]Conditions: walk around left twice and jump around left
+break
+Generated actions: I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP
+Actual actions: I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP
+Correct!###############################################################################################
+Accuracy: 0.9822:  98%|███████████████████████████████████████████████████████████████████████████████████████████████  | 4096/4182 [15:35<00:17,  4.91it/s]Conditions: run around left thrice and turn around left twice
+break
+Generated actions: I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT
+Actual actions: I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT
+Correct!###############################################################################################
+Accuracy: 0.9822:  98%|███████████████████████████████████████████████████████████████████████████████████████████████  | 4097/4182 [15:35<00:20,  4.23it/s]Conditions: run around right after jump right twice
+break
+Generated actions: I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN
+Actual actions: I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9822:  98%|███████████████████████████████████████████████████████████████████████████████████████████████  | 4098/4182 [15:35<00:16,  5.00it/s]Conditions: turn left thrice and look opposite left twice
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_LOOK I_TURN_LEFT I_TURN_LEFT I_LOOK
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_LOOK I_TURN_LEFT I_TURN_LEFT I_LOOK
+Correct!###############################################################################################
+Accuracy: 0.9822:  98%|███████████████████████████████████████████████████████████████████████████████████████████████  | 4098/4182 [15:35<00:16,  5.00it/s]Conditions: walk left twice after look around left
+break
+Generated actions: I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK
+Actual actions: I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9822:  98%|███████████████████████████████████████████████████████████████████████████████████████████████  | 4100/4182 [15:35<00:12,  6.61it/s]Conditions: look opposite right thrice after jump around left thrice
+break
+Generated actions: I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_RIGHT I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_TURN_RIGHT I_LOOK
+Actual actions: I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_RIGHT I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_TURN_RIGHT I_LOOK
+Correct!###############################################################################################
+Accuracy: 0.9822:  98%|███████████████████████████████████████████████████████████████████████████████████████████████  | 4101/4182 [15:36<00:14,  5.56it/s]Conditions: jump around left thrice after walk opposite left thrice
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_WALK I_TURN_LEFT I_TURN_LEFT I_WALK I_TURN_LEFT I_TURN_LEFT I_WALK I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_WALK I_TURN_LEFT I_TURN_LEFT I_WALK I_TURN_LEFT I_TURN_LEFT I_WALK I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP
+Correct!###############################################################################################
+Accuracy: 0.9822:  98%|███████████████████████████████████████████████████████████████████████████████████████████████▏ | 4102/4182 [15:36<00:16,  4.93it/s]Conditions: walk right twice after run opposite left twice
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9822:  98%|███████████████████████████████████████████████████████████████████████████████████████████████▏ | 4102/4182 [15:36<00:16,  4.93it/s]Conditions: walk right thrice after walk around right
+break
+Generated actions: I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK
+Actual actions: I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK  
+Correct!###############################################################################################
+Accuracy: 0.9822:  98%|███████████████████████████████████████████████████████████████████████████████████████████████▏ | 4104/4182 [15:36<00:12,  6.12it/s]Conditions: jump around right twice and run around right twice
+break
+Generated actions: I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN
+Actual actions: I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9822:  98%|███████████████████████████████████████████████████████████████████████████████████████████████▏ | 4105/4182 [15:37<00:14,  5.29it/s]Conditions: jump opposite left thrice and look opposite left
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_JUMP I_TURN_LEFT I_TURN_LEFT I_JUMP I_TURN_LEFT I_TURN_LEFT I_JUMP I_TURN_LEFT I_TURN_LEFT I_LOOK
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_JUMP I_TURN_LEFT I_TURN_LEFT I_JUMP I_TURN_LEFT I_TURN_LEFT I_JUMP I_TURN_LEFT I_TURN_LEFT I_LOOK
+Correct!###############################################################################################
+Accuracy: 0.9822:  98%|███████████████████████████████████████████████████████████████████████████████████████████████▏ | 4106/4182 [15:37<00:12,  5.97it/s]Conditions: run opposite left twice after jump left thrice
+break
+Generated actions: I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_LEFT I_TURN_LEFT I_RUN
+Actual actions: I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_LEFT I_TURN_LEFT I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9822:  98%|███████████████████████████████████████████████████████████████████████████████████████████████▎ | 4107/4182 [15:37<00:11,  6.61it/s]Conditions: jump around right and jump right
+break
+Generated actions: I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP
+Actual actions: I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP
+Correct!###############################################################################################
+Accuracy: 0.9822:  98%|███████████████████████████████████████████████████████████████████████████████████████████████▎ | 4107/4182 [15:37<00:11,  6.61it/s]Conditions: walk right after run right
+break
+Generated actions: I_TURN_RIGHT I_RUN I_TURN_RIGHT I_WALK
+Actual actions: I_TURN_RIGHT I_RUN I_TURN_RIGHT I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9822:  98%|███████████████████████████████████████████████████████████████████████████████████████████████▎ | 4109/4182 [15:37<00:08,  8.59it/s]Conditions: walk opposite left and jump opposite right twice
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_WALK I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_TURN_RIGHT I_JUMP
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_WALK I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_TURN_RIGHT I_JUMP
+Correct!###############################################################################################
+Accuracy: 0.9822:  98%|███████████████████████████████████████████████████████████████████████████████████████████████▎ | 4109/4182 [15:37<00:08,  8.59it/s]Conditions: look right and look left twice
+break
+Generated actions: I_TURN_RIGHT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK
+Actual actions: I_TURN_RIGHT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK
+Correct!###############################################################################################
+Accuracy: 0.9822:  98%|███████████████████████████████████████████████████████████████████████████████████████████████▎ | 4111/4182 [15:37<00:07,  9.89it/s]Conditions: jump twice and jump around right
+break
+Generated actions: I_JUMP I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP
+Actual actions: I_JUMP I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP
+Correct!###############################################################################################
+Accuracy: 0.9822:  98%|███████████████████████████████████████████████████████████████████████████████████████████████▎ | 4111/4182 [15:37<00:07,  9.89it/s]Conditions: walk opposite left and turn left twice
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_WALK I_TURN_LEFT I_TURN_LEFT
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_WALK I_TURN_LEFT I_TURN_LEFT
+Correct!###############################################################################################
+Accuracy: 0.9823:  98%|███████████████████████████████████████████████████████████████████████████████████████████████▍ | 4113/4182 [15:37<00:06, 11.05it/s]Conditions: look around left twice after look around left thrice
+Generated actions: I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK
+Actual actions: I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK
+Accuracy: 0.9820:  98%|███████████████████████████████████████████████████████████████████████████████████████████████▍ | 4113/4182 [15:37<00:06, 11.05it/s]Conditions: look around right twice and jump opposite right thrice
+break
+Generated actions: I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_TURN_RIGHT I_JUMP
+Actual actions: I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_TURN_RIGHT I_JUMP
+Correct!###############################################################################################
+Accuracy: 0.9820:  98%|███████████████████████████████████████████████████████████████████████████████████████████████▍ | 4115/4182 [15:38<00:09,  7.17it/s]Conditions: jump opposite right after walk around left twice
+break
+Generated actions: I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_RIGHT I_TURN_RIGHT I_JUMP
+Actual actions: I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_RIGHT I_TURN_RIGHT I_JUMP
+Correct!###############################################################################################
+Accuracy: 0.9820:  98%|███████████████████████████████████████████████████████████████████████████████████████████████▍ | 4116/4182 [15:38<00:09,  7.11it/s]Conditions: walk left thrice after jump around left thrice
+break
+Generated actions: I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK
+Actual actions: I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9820:  98%|███████████████████████████████████████████████████████████████████████████████████████████████▍ | 4117/4182 [15:38<00:10,  6.30it/s]Conditions: walk left twice after walk left
+break
+Generated actions: I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK
+Actual actions: I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9820:  98%|███████████████████████████████████████████████████████████████████████████████████████████████▍ | 4117/4182 [15:38<00:10,  6.30it/s]Conditions: run left twice and run opposite left twice
+break
+Generated actions: I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_LEFT I_TURN_LEFT I_RUN
+Actual actions: I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_LEFT I_TURN_LEFT I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9820:  98%|███████████████████████████████████████████████████████████████████████████████████████████████▌ | 4119/4182 [15:38<00:08,  7.80it/s]Conditions: run right thrice and walk
+break
+Generated actions: I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_WALK
+Actual actions: I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9820:  98%|███████████████████████████████████████████████████████████████████████████████████████████████▌ | 4119/4182 [15:38<00:08,  7.80it/s]Conditions: turn right thrice and walk around left twice
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9820:  99%|███████████████████████████████████████████████████████████████████████████████████████████████▌ | 4121/4182 [15:38<00:07,  8.42it/s]Conditions: look thrice and look opposite right
+break
+Generated actions: I_LOOK I_LOOK I_LOOK I_TURN_RIGHT I_TURN_RIGHT I_LOOK
+Actual actions: I_LOOK I_LOOK I_LOOK I_TURN_RIGHT I_TURN_RIGHT I_LOOK
+Correct!###############################################################################################
+Accuracy: 0.9820:  99%|███████████████████████████████████████████████████████████████████████████████████████████████▌ | 4121/4182 [15:38<00:07,  8.42it/s]Conditions: look opposite right and turn right twice
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_TURN_RIGHT
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_TURN_RIGHT
+Correct!###############################################################################################
+Accuracy: 0.9821:  99%|███████████████████████████████████████████████████████████████████████████████████████████████▌ | 4121/4182 [15:38<00:07,  8.42it/s]Conditions: look opposite left twice and turn right thrice
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_LOOK I_TURN_LEFT I_TURN_LEFT I_LOOK I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_LOOK I_TURN_LEFT I_TURN_LEFT I_LOOK I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT
+Correct!###############################################################################################
+Accuracy: 0.9821:  99%|███████████████████████████████████████████████████████████████████████████████████████████████▋ | 4124/4182 [15:39<00:05, 10.64it/s]Conditions: jump opposite left thrice and walk right twice
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_JUMP I_TURN_LEFT I_TURN_LEFT I_JUMP I_TURN_LEFT I_TURN_LEFT I_JUMP I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK      
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_JUMP I_TURN_LEFT I_TURN_LEFT I_JUMP I_TURN_LEFT I_TURN_LEFT I_JUMP I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9821:  99%|███████████████████████████████████████████████████████████████████████████████████████████████▋ | 4124/4182 [15:39<00:05, 10.64it/s]Conditions: turn opposite right twice
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT
+Correct!###############################################################################################
+Accuracy: 0.9821:  99%|███████████████████████████████████████████████████████████████████████████████████████████████▋ | 4126/4182 [15:39<00:04, 11.26it/s]Conditions: look left and run twice
+break
+Generated actions: I_TURN_LEFT I_LOOK I_RUN I_RUN
+Actual actions: I_TURN_LEFT I_LOOK I_RUN I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9821:  99%|███████████████████████████████████████████████████████████████████████████████████████████████▋ | 4126/4182 [15:39<00:04, 11.26it/s]Conditions: look left thrice and turn around right thrice
+break
+Generated actions: I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT
+Actual actions: I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT
+Correct!###############################################################################################
+Accuracy: 0.9821:  99%|███████████████████████████████████████████████████████████████████████████████████████████████▋ | 4128/4182 [15:39<00:05,  9.91it/s]Conditions: look around right thrice and walk around left twice
+Generated actions: I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK
+Actual actions: I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK
+Accuracy: 0.9818:  99%|███████████████████████████████████████████████████████████████████████████████████████████████▋ | 4128/4182 [15:39<00:05,  9.91it/s]Conditions: look right thrice after walk
+break
+Generated actions: I_WALK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK
+Actual actions: I_WALK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK
+Correct!###############################################################################################
+Accuracy: 0.9818:  99%|███████████████████████████████████████████████████████████████████████████████████████████████▊ | 4130/4182 [15:39<00:06,  8.03it/s]Conditions: run twice and turn left
+break
+Generated actions: I_RUN I_RUN I_TURN_LEFT
+Actual actions: I_RUN I_RUN I_TURN_LEFT
+Correct!###############################################################################################
+Accuracy: 0.9818:  99%|███████████████████████████████████████████████████████████████████████████████████████████████▊ | 4130/4182 [15:39<00:06,  8.03it/s]Conditions: walk and walk left twice
+break
+Generated actions: I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK
+Actual actions: I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9818:  99%|███████████████████████████████████████████████████████████████████████████████████████████████▊ | 4130/4182 [15:39<00:06,  8.03it/s]Conditions: look left thrice after jump around left twice
+break
+Generated actions: I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK
+Actual actions: I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK
+Correct!###############################################################################################
+Accuracy: 0.9819:  99%|███████████████████████████████████████████████████████████████████████████████████████████████▊ | 4133/4182 [15:40<00:05,  8.95it/s]Conditions: jump opposite left after look around left twice
+break
+Generated actions: I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_TURN_LEFT I_JUMP
+Actual actions: I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_TURN_LEFT I_JUMP
+Correct!###############################################################################################
+Accuracy: 0.9819:  99%|███████████████████████████████████████████████████████████████████████████████████████████████▉ | 4134/4182 [15:40<00:05,  8.50it/s]Conditions: jump thrice after look around left thrice
+break
+Generated actions: I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_JUMP I_JUMP I_JUMP
+Actual actions: I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_JUMP I_JUMP I_JUMP
+Correct!###############################################################################################
+Accuracy: 0.9819:  99%|███████████████████████████████████████████████████████████████████████████████████████████████▉ | 4135/4182 [15:40<00:06,  7.17it/s]Conditions: walk around right twice and run around right thrice
+Generated actions: I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN
+Actual actions: I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN
+Accuracy: 0.9816:  99%|███████████████████████████████████████████████████████████████████████████████████████████████▉ | 4136/4182 [15:40<00:07,  5.92it/s]Conditions: turn opposite left and walk left thrice
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9816:  99%|███████████████████████████████████████████████████████████████████████████████████████████████▉ | 4136/4182 [15:40<00:07,  5.92it/s]Conditions: turn around right thrice and jump opposite left twice
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_LEFT I_TURN_LEFT I_JUMP I_TURN_LEFT I_TURN_LEFT I_JUMP
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_LEFT I_TURN_LEFT I_JUMP I_TURN_LEFT I_TURN_LEFT I_JUMP
+Correct!###############################################################################################
+Accuracy: 0.9816:  99%|███████████████████████████████████████████████████████████████████████████████████████████████▉ | 4138/4182 [15:40<00:06,  6.98it/s]Conditions: look around left and turn around left
+break
+Generated actions: I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT
+Actual actions: I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT
+Correct!###############################################################################################
+Accuracy: 0.9816:  99%|███████████████████████████████████████████████████████████████████████████████████████████████▉ | 4138/4182 [15:41<00:06,  6.98it/s]Conditions: turn around right and walk opposite right twice
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_TURN_RIGHT I_WALK
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_TURN_RIGHT I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9816:  99%|████████████████████████████████████████████████████████████████████████████████████████████████ | 4140/4182 [15:41<00:05,  7.72it/s]Conditions: run left after walk right thrice
+break
+Generated actions: I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_LEFT I_RUN
+Actual actions: I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_LEFT I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9816:  99%|████████████████████████████████████████████████████████████████████████████████████████████████ | 4140/4182 [15:41<00:05,  7.72it/s]Conditions: walk thrice after look around right
+break
+Generated actions: I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_WALK I_WALK I_WALK
+Actual actions: I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_WALK I_WALK I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9817:  99%|████████████████████████████████████████████████████████████████████████████████████████████████ | 4142/4182 [15:41<00:04,  8.85it/s]Conditions: run around left thrice and jump around right twice
+Generated actions: I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP
+Actual actions: I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP
+Accuracy: 0.9814:  99%|████████████████████████████████████████████████████████████████████████████████████████████████ | 4143/4182 [15:41<00:05,  6.85it/s]Conditions: turn opposite right after run opposite left
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_RIGHT I_TURN_RIGHT
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_RIGHT I_TURN_RIGHT
+Correct!###############################################################################################
+Accuracy: 0.9814:  99%|████████████████████████████████████████████████████████████████████████████████████████████████ | 4143/4182 [15:41<00:05,  6.85it/s]Conditions: jump around right after jump opposite left
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP
+Correct!###############################################################################################
+Accuracy: 0.9814:  99%|████████████████████████████████████████████████████████████████████████████████████████████████▏| 4145/4182 [15:41<00:04,  8.52it/s]Conditions: run opposite left twice and look around left thrice
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK        
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK
+Correct!###############################################################################################
+Accuracy: 0.9814:  99%|████████████████████████████████████████████████████████████████████████████████████████████████▏| 4146/4182 [15:41<00:05,  7.09it/s]Conditions: walk opposite left thrice and look around right twice
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_WALK I_TURN_LEFT I_TURN_LEFT I_WALK I_TURN_LEFT I_TURN_LEFT I_WALK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_WALK I_TURN_LEFT I_TURN_LEFT I_WALK I_TURN_LEFT I_TURN_LEFT I_WALK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK
+Correct!###############################################################################################
+Accuracy: 0.9814:  99%|████████████████████████████████████████████████████████████████████████████████████████████████▏| 4147/4182 [15:42<00:05,  6.46it/s]Conditions: run around right after run opposite left thrice
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_LEFT I_TURN_LEFT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9814:  99%|████████████████████████████████████████████████████████████████████████████████████████████████▏| 4148/4182 [15:42<00:05,  6.59it/s]Conditions: walk around right after walk right
+break
+Generated actions: I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK
+Actual actions: I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9814:  99%|████████████████████████████████████████████████████████████████████████████████████████████████▏| 4148/4182 [15:42<00:05,  6.59it/s]Conditions: walk right thrice and look left thrice
+break
+Generated actions: I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK
+Actual actions: I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK
+Correct!###############################################################################################
+Accuracy: 0.9814:  99%|████████████████████████████████████████████████████████████████████████████████████████████████▎| 4150/4182 [15:42<00:04,  7.98it/s]Conditions: walk around left thrice and look right thrice
+break
+Generated actions: I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK        
+Actual actions: I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK
+Correct!###############################################################################################
+Accuracy: 0.9815:  99%|████████████████████████████████████████████████████████████████████████████████████████████████▎| 4151/4182 [15:42<00:04,  6.42it/s]Conditions: turn around left twice after look right twice
+break
+Generated actions: I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT   
+Actual actions: I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT      
+Correct!###############################################################################################
+Accuracy: 0.9815:  99%|████████████████████████████████████████████████████████████████████████████████████████████████▎| 4152/4182 [15:42<00:04,  6.97it/s]Conditions: run around right thrice and walk right twice
+break
+Generated actions: I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK
+Actual actions: I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9815:  99%|████████████████████████████████████████████████████████████████████████████████████████████████▎| 4153/4182 [15:43<00:04,  6.16it/s]Conditions: walk left and jump thrice
+break
+Generated actions: I_TURN_LEFT I_WALK I_JUMP I_JUMP I_JUMP
+Actual actions: I_TURN_LEFT I_WALK I_JUMP I_JUMP I_JUMP
+Correct!###############################################################################################
+Accuracy: 0.9815:  99%|████████████████████████████████████████████████████████████████████████████████████████████████▎| 4153/4182 [15:43<00:04,  6.16it/s]Conditions: run thrice after jump around right
+break
+Generated actions: I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_RUN I_RUN I_RUN
+Actual actions: I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_RUN I_RUN I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9815:  99%|████████████████████████████████████████████████████████████████████████████████████████████████▎| 4155/4182 [15:43<00:03,  8.29it/s]Conditions: turn right twice and jump left thrice
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP
+Correct!###############################################################################################
+Accuracy: 0.9815:  99%|████████████████████████████████████████████████████████████████████████████████████████████████▎| 4155/4182 [15:43<00:03,  8.29it/s]Conditions: look opposite right and turn around right
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT
+Correct!###############################################################################################
+Accuracy: 0.9815:  99%|████████████████████████████████████████████████████████████████████████████████████████████████▍| 4157/4182 [15:43<00:02, 10.14it/s]Conditions: turn opposite right and jump opposite right twice
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_TURN_RIGHT I_JUMP
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_TURN_RIGHT I_JUMP
+Correct!###############################################################################################
+Accuracy: 0.9815:  99%|████████████████████████████████████████████████████████████████████████████████████████████████▍| 4157/4182 [15:43<00:02, 10.14it/s]Conditions: look left twice and turn left
+break
+Generated actions: I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT
+Actual actions: I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT
+Correct!###############################################################################################
+Accuracy: 0.9815:  99%|████████████████████████████████████████████████████████████████████████████████████████████████▍| 4159/4182 [15:43<00:01, 11.95it/s]Conditions: run around right thrice after turn around left twice
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9815:  99%|████████████████████████████████████████████████████████████████████████████████████████████████▍| 4159/4182 [15:43<00:01, 11.95it/s]Conditions: look around right twice and walk left thrice
+break
+Generated actions: I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK
+Actual actions: I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9815:  99%|████████████████████████████████████████████████████████████████████████████████████████████████▌| 4161/4182 [15:43<00:02,  7.99it/s]Conditions: run left twice after walk around right
+break
+Generated actions: I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN
+Actual actions: I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9815:  99%|████████████████████████████████████████████████████████████████████████████████████████████████▌| 4161/4182 [15:43<00:02,  7.99it/s]Conditions: run right and turn around right thrice
+break
+Generated actions: I_TURN_RIGHT I_RUN I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT
+Actual actions: I_TURN_RIGHT I_RUN I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT
+Correct!###############################################################################################
+Accuracy: 0.9815: 100%|████████████████████████████████████████████████████████████████████████████████████████████████▌| 4163/4182 [15:44<00:02,  8.26it/s]Conditions: run right after look around left thrice
+break
+Generated actions: I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_RIGHT I_RUN
+Actual actions: I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK I_TURN_RIGHT I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9815: 100%|████████████████████████████████████████████████████████████████████████████████████████████████▌| 4163/4182 [15:44<00:02,  8.26it/s]Conditions: run right twice after walk around right twice
+break
+Generated actions: I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN
+Actual actions: I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9815: 100%|████████████████████████████████████████████████████████████████████████████████████████████████▌| 4165/4182 [15:44<00:02,  6.77it/s]Conditions: look opposite right twice after jump opposite right twice
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_TURN_RIGHT I_LOOK       
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_TURN_RIGHT I_LOOK
+Correct!###############################################################################################
+Accuracy: 0.9815: 100%|████████████████████████████████████████████████████████████████████████████████████████████████▋| 4166/4182 [15:44<00:02,  7.01it/s]Conditions: run around right after run
+break
+Generated actions: I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN
+Actual actions: I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN I_TURN_RIGHT I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9815: 100%|████████████████████████████████████████████████████████████████████████████████████████████████▋| 4166/4182 [15:44<00:02,  7.01it/s]Conditions: walk around right thrice and jump right
+break
+Generated actions: I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_JUMP
+Actual actions: I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_JUMP
+Correct!###############################################################################################
+Accuracy: 0.9815: 100%|████████████████████████████████████████████████████████████████████████████████████████████████▋| 4168/4182 [15:44<00:02,  6.91it/s]Conditions: walk around right after walk left thrice
+break
+Generated actions: I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK  
+Actual actions: I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_LEFT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK     
+Correct!###############################################################################################
+Accuracy: 0.9815: 100%|████████████████████████████████████████████████████████████████████████████████████████████████▋| 4169/4182 [15:45<00:01,  7.27it/s]Conditions: walk opposite right thrice and turn left twice
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_LEFT I_TURN_LEFT
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_LEFT I_TURN_LEFT
+Correct!###############################################################################################
+Accuracy: 0.9815: 100%|████████████████████████████████████████████████████████████████████████████████████████████████▋| 4169/4182 [15:45<00:01,  7.27it/s]Conditions: look opposite right after run right
+break
+Generated actions: I_TURN_RIGHT I_RUN I_TURN_RIGHT I_TURN_RIGHT I_LOOK
+Actual actions: I_TURN_RIGHT I_RUN I_TURN_RIGHT I_TURN_RIGHT I_LOOK
+Correct!###############################################################################################
+Accuracy: 0.9815: 100%|████████████████████████████████████████████████████████████████████████████████████████████████▋| 4171/4182 [15:45<00:01,  8.93it/s]Conditions: turn around right thrice after jump opposite right
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT
+Correct!###############################################################################################
+Accuracy: 0.9815: 100%|████████████████████████████████████████████████████████████████████████████████████████████████▋| 4171/4182 [15:45<00:01,  8.93it/s]Conditions: look left twice after turn left twice
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_LOOK I_TURN_LEFT I_LOOK
+Correct!###############################################################################################
+Accuracy: 0.9815: 100%|████████████████████████████████████████████████████████████████████████████████████████████████▊| 4173/4182 [15:45<00:00,  9.64it/s]Conditions: walk around right twice and walk right thrice
+break
+Generated actions: I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK
+Actual actions: I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9816: 100%|████████████████████████████████████████████████████████████████████████████████████████████████▊| 4173/4182 [15:45<00:00,  9.64it/s]Conditions: walk right twice and jump around right
+break
+Generated actions: I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP
+Actual actions: I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP
+Correct!###############################################################################################
+Accuracy: 0.9816: 100%|████████████████████████████████████████████████████████████████████████████████████████████████▊| 4175/4182 [15:45<00:00,  8.69it/s]Conditions: run around left thrice after walk opposite right thrice
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN I_TURN_LEFT I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9816: 100%|████████████████████████████████████████████████████████████████████████████████████████████████▊| 4176/4182 [15:45<00:00,  6.55it/s]Conditions: turn opposite left twice and walk right thrice
+break
+Generated actions: I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK
+Actual actions: I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK I_TURN_RIGHT I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9816: 100%|████████████████████████████████████████████████████████████████████████████████████████████████▊| 4176/4182 [15:46<00:00,  6.55it/s]Conditions: walk left and jump left twice
+break
+Generated actions: I_TURN_LEFT I_WALK I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP
+Actual actions: I_TURN_LEFT I_WALK I_TURN_LEFT I_JUMP I_TURN_LEFT I_JUMP
+Correct!###############################################################################################
+Accuracy: 0.9816: 100%|████████████████████████████████████████████████████████████████████████████████████████████████▉| 4178/4182 [15:46<00:00,  8.06it/s]Conditions: jump around right twice after walk opposite right thrice
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_TURN_RIGHT I_WALK I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_JUMP
+Correct!###############################################################################################
+Accuracy: 0.9816: 100%|████████████████████████████████████████████████████████████████████████████████████████████████▉| 4179/4182 [15:46<00:00,  7.02it/s]Conditions: walk after jump opposite right twice
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_WALK
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_TURN_RIGHT I_TURN_RIGHT I_JUMP I_WALK
+Correct!###############################################################################################
+Accuracy: 0.9816: 100%|████████████████████████████████████████████████████████████████████████████████████████████████▉| 4179/4182 [15:46<00:00,  7.02it/s]Conditions: look right thrice and jump left
+break
+Generated actions: I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_LEFT I_JUMP
+Actual actions: I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_RIGHT I_LOOK I_TURN_LEFT I_JUMP
+Correct!###############################################################################################
+Accuracy: 0.9816: 100%|████████████████████████████████████████████████████████████████████████████████████████████████▉| 4181/4182 [15:46<00:00,  8.81it/s]Conditions: turn opposite right thrice and run opposite left
+break
+Generated actions: I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_LEFT I_TURN_LEFT I_RUN
+Actual actions: I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_RIGHT I_TURN_LEFT I_TURN_LEFT I_RUN
+Correct!###############################################################################################
+Accuracy: 0.9816: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 4182/4182 [15:46<00:00,  4.42it/s] 
+Test accuracy: 0.9815877570540411
